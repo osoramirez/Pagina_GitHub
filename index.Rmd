@@ -53,10 +53,21 @@ Para obtener diferetes tipos de fuentes, utiliza el simbolo **#** y un espacio p
 
 
 <div align="center">
+
+\
+\
+\
+
+
 ## Estilo de Texto.
 </div>
 
 <p align="center">![](imagenes/estilos.png)</p>
+
+\
+\
+\
+
 
 ## Color de texto 
 
@@ -70,6 +81,7 @@ Rosas son <span style="color:red">rojas</span>, y las violetas son <span style="
 
 ```
 
+\
 \
 \
 
@@ -94,6 +106,10 @@ Puede utilizar
 <p align="right">
 ```
 
+\
+\
+\
+
 y finalice el justificado al finalizar de su oración o párrafo con:
 
 ```markdown
@@ -102,11 +118,18 @@ y finalice el justificado al finalizar de su oración o párrafo con:
 
 otra **forma** de aplicar de forma sencilla es utilizar 
 
+\
+\
+\
+
 <center>Estilo de Texto centrado</center>
 
 ```markdown
 <center>Estilo de Texto</center>
 ```
+\
+\
+\
 
 ## Links e hipervínculos
 
@@ -114,6 +137,10 @@ otra **forma** de aplicar de forma sencilla es utilizar
 [página](https://osoramirez.weebly.com/)
 <https://osoramirez.weebly.com> 
 ```
+\
+\
+\
+
 ## Mayor espacio entre párrafos
 
 Utilice:
