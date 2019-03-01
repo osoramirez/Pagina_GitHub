@@ -1,0 +1,16 @@
+name: "Pagina Web"
+navbar:
+  title: "Oscar Ramírez"
+  right:
+    - text: "Como usar rmarkdown"
+      href: index.html
+    - text: "adjuntos"
+      href: adjuntos.html
+    - text: "Bases de datos"
+      href: bases.html
+      
+output:
+  html_document:
+    theme: sandstone
+    css: style.css
+

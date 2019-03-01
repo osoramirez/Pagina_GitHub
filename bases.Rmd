@@ -1,0 +1,40 @@
+\
+\
+
+# Bases de datos
+
+Una vez colectada su base de datos, usted puede respaldaldarla en su cuenta de Github.
+
+**Guarde siempre sus archivos desde el Excel en extensión <span style="color:blue">.csv</span>.
+
+
+Para ello cree un repositorio que se llame bases de datos.  Arrastre ahi las bases de datos que quiere respaldar.
+
+$$
+$$
+
+
+# Cargando bases de datos
+
+```{r}
+datos <- read.table("https://raw.githubusercontent.com/osoramirez/bases_datos/master/G_TimeA.csv", sep=";", header=TRUE)
+```
+
+```markdown
+Revise que su separador decimal en su coputadora, para que sus datos estén bien estrcuturados a la hora de cargarlos.
+```
+
+$$
+$$
+
+
+# Graficando
+
+Una vez cargada la base de datos usted puede realizar análisis o gráficos. Solo recuerde insertar un chunk, para generar resultados o analisis gráfico en su página
+
+```{r}
+library(ggplot2)
+ggplot(datos, aes(x=Hour, y=SPLmean))+
+  geom_boxplot(fill="#999999", alpha=.7) +facet_grid(.~Sites) + theme_bw()
+```
+

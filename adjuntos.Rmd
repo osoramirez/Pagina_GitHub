@@ -1,0 +1,87 @@
+\
+\
+
+# Mostrar adjuntos
+
+Hay varias opciones para adjuntar diferentes formas de brindar una referencia
+
+\
+\
+\
+## URL link
+
+Esta es mi página principal ir al siguiente [Página](https://osoramirez.weebly.com/)
+```markdown
+[Página](https://osoramirez.weebly.com/)
+```
+
+o solo escriba  <https://osoramirez.weebly.com/>  < dirección > para dirigir el hypervínculo
+
+```markdown
+<https://osoramirez.weebly.com/> 
+```
+
+\
+\
+\
+
+# Adjuntar imágenes
+
+Para tener un buen orden de los archivos, recomiendo, crear un folder que se llame "imagenes" y ahi guarde sus archivos de imágenes que quiera utilizar.  Usted puede adjuntar el .jpg o .png.
+
+$~$
+$~$
+$~$
+$~$
+$~$
+$~$
+
+### Forma simple
+
+```markdown
+
+# ![](imagenes/colibri.jpg)
+
+```
+
+![](imagenes/colibri.jpg)
+
+\
+\
+\
+\
+
+
+### Cambiar a un ancho definido
+
+```markdown
+Utilice
+
+![](imagenes/colibri.jpg){width=150px}
+
+```
+![](imagenes/colibri.jpg){width=150px}
+
+\
+\
+\
+\
+
+### Largo y ancho definido
+
+```markdown
+<div style="width:300px; height:200px">
+![](imagenes/colibri.jpg)
+</div>
+```
+
+<div style="width:100px; height:100px">
+![](imagenes/colibri.jpg)
+</div>
+
+
+```{r}
+a <- rnorm(100)
+hist(a)
+```
+
